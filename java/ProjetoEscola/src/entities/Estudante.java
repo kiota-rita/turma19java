@@ -1,7 +1,8 @@
 package entities;
 
-public class Estudante {
-	 private int matricula;
+public abstract class Estudante {//pode criar todas as classes filhas, mas ela nao pode ser instanciada no programa principal
+	
+	 	private int matricula;
 	    private String cpf;
 	    private double pontos;
 	    private boolean status;

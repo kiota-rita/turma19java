@@ -1,9 +1,13 @@
 package application;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
 import entities.Basico;
+import entities.Estudante;
+import entities.Graduacao;
 import entities.Medio;
 
 public class CadEstudante {
@@ -21,6 +25,8 @@ public class CadEstudante {
 		A escola dever ter um Slogan [exemplo Escola ED++, um plus de ensino em sua vida]
 		Minimo do aluno é matricula, cpf - proteção total - nota pode ser vista mais só pode ser alterada por metodo. CPF/MATRICULA só podem ser vistos.
 		TELA INICIAL*/
+		
+		Estudante est1 = new Graduacao("Alo", 2);//objeto polimorfico, graduação é filha de estudante
 		
 		//Menu
 		do {
